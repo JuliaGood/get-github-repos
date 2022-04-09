@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+}
+
+.h6 {
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  padding: 15px;
+  margin: 0;
+}
+
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 15px;
+}
+
+.list-repos {
+  display: flex;
+  text-decoration: none;
+  list-style-type: decimal;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 500px;
+}
+.list-repos li {
+  padding: 5px 0;
+}
+
+#error {
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+}
